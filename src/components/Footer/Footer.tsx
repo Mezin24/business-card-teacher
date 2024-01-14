@@ -21,10 +21,18 @@ const Footer = () => {
           </p>
         </div>
         <div className='mt-5 lg:mt-0'>
-          <a href='#' className='p-2 bg-white inline-block rounded-full mr-2'>
+          <a
+            href='https://vk.com/sadikmozaika'
+            target='_blank'
+            className='p-2 bg-white inline-block rounded-full mr-2'
+          >
             <SlSocialVkontakte color='black' />
           </a>
-          <a href='#' className='p-2 bg-white inline-block rounded-full'>
+          <a
+            href='https://t.me/sokolpedagog'
+            className='p-2 bg-white inline-block rounded-full'
+            target='_blank'
+          >
             <FaTelegramPlane color='black' />
           </a>
         </div>

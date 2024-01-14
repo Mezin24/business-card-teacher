@@ -8,7 +8,7 @@ const AdvicesPage = () => {
     <div className='font-text bg-[#eecccc]'>
       <div className={cn(styles.hero, 'grid place-content-center')}>
         <HomeLink classes='absolute top-5 left-5' />
-        <a href='#patents'>
+        <a href='#advice'>
           <IoIosArrowDown
             className='absolute bottom-8 left-auto animate-bounce'
             size={'50px'}
@@ -17,7 +17,7 @@ const AdvicesPage = () => {
         <h2 className='text-7xl '>2024 - год Семьи!</h2>
         <p className='mt-10'>Советы родителям</p>
       </div>
-      <div className='py-16'>
+      <div className='py-16' id='advice'>
         <div className='container-medium leading-8'>
           <h3 className='font-bold text-xl'>
             Семейные традиции и их роль в жизни ребенка
