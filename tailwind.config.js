@@ -3,6 +3,10 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {},
+    fontFamily: {
+      sans: ['Helvetica', 'Arial', 'sans-serif'],
+      text: ['IBM Plex Serif', 'serif'],
+    },
   },
   plugins: [],
 };
