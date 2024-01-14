@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,400&display=swap,600;1,600&display=swap');@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,600&display=swap');@tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
 
 .container {
   @apply mx-auto max-w-7xl w-11/12

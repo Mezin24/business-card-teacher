@@ -4,5 +4,5 @@ export const headerLinks = [
   { title: 'Мои дипломы', to: '/achievements' },
   { title: 'ЭССЕ', to: '/essay' },
   { title: 'Советы родителям', to: '/adviсes' },
-  { title: 'Контакты', to: '#footer' },
+  { title: 'Контакты', to: '/#footer' },
 ];

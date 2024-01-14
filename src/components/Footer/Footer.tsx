@@ -3,7 +3,7 @@ import { FaTelegramPlane } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className='py-7  bg-black text-white '>
+    <div id='footer' className='py-7  bg-black text-white '>
       <div className='container flex flex-col lg:flex-row font-text lg:items-center'>
         <div className='lg:flex-1'>
           <p>
@@ -21,12 +21,12 @@ const Footer = () => {
           </p>
         </div>
         <div className='mt-5 lg:mt-0'>
-          <div className='p-2 bg-white inline-block rounded-full mr-2'>
+          <a href='#' className='p-2 bg-white inline-block rounded-full mr-2'>
             <SlSocialVkontakte color='black' />
-          </div>
-          <div className='p-2 bg-white inline-block rounded-full'>
+          </a>
+          <a href='#' className='p-2 bg-white inline-block rounded-full'>
             <FaTelegramPlane color='black' />
-          </div>
+          </a>
         </div>
       </div>
     </div>

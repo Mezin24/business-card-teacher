@@ -11,5 +11,20 @@
 }
 
 .text {
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-delay: 1.5s;
+}
 
+@keyframes slidein {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+
+    opacity: 1;
+  }
 }
