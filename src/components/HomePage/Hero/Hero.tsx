@@ -1,5 +1,6 @@
 import cn from 'classnames';
 import styles from './Hero.module.css';
+import { Divider } from '../../UI';
 
 const Hero: React.FC = () => {
   return (
@@ -8,6 +9,7 @@ const Hero: React.FC = () => {
         <h1 className='text-4xl mt-32 lg:mt-0 lg:text-6xl font-text lg:leading-[80px] font-semibold italic '>
           Современный педагог - это призвание!
         </h1>
+        <Divider color='white' classes='mt-10' />
         <p className='mt-12 font-text'>
           Педагог - это инженер человеческих душ. (М. И. Калинин)
         </p>
