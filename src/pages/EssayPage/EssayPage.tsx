@@ -1,4 +1,6 @@
+import { Navigate } from 'react-router-dom';
+
 const EssayPage = () => {
-  return <div>EssayPage</div>;
+  return <Navigate to='/' replace />;
 };
 export default EssayPage;

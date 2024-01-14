@@ -1,12 +1,12 @@
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import { about1Images, classImages, familyImages } from './images';
-import { Link } from 'react-router-dom';
+import { HomeLink } from '@/components/UI';
 
 const AboutPage = () => {
   return (
     <div className='bg-[#c9c3c3] py-5 font-text pb-16'>
       <div className='container'>
-        <Link to='/'>⬅️ Назад</Link>
+        <HomeLink />
         <PhotoProvider>
           <div className='flex justify-between items-center  gap-5'>
             {about1Images.map((item, index) => (
